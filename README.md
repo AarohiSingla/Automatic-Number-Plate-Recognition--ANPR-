@@ -1,6 +1,7 @@
 # Automatic-Number-Plate-Recognition--ANPR-
 Automatic Number Plate Recognition (ANPR) Using YOLOv8 and easyOCR
 
+![thumb](https://github.com/AarohiSingla/Automatic-Number-Plate-Recognition--ANPR-/assets/60029146/a3f94d72-8b05-4e52-b18d-8d480bb232af)
 
 
 !pip install ultralytics==8.0.0
