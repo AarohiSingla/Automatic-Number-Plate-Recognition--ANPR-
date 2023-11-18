@@ -11,6 +11,7 @@ Automatic Number Plate Recognition (ANPR) Using YOLOv8 and easyOCR
 
 cd Automatic-Number-Plate-Recognition--ANPR--main
 
+
 #### To train your model on License plate detection:
 
 from ultralytics import YOLO
@@ -21,6 +22,7 @@ model = YOLO('yolov8n.pt')  # load a pretrained model (recommended for training)
 ###### Train the model
 results = model.train(data='data.yaml', epochs=200, imgsz=640) 
 
+
 #### Test the yolov8 model:
 
 ###### Load a pretrained YOLOv8n model
@@ -28,6 +30,7 @@ model = YOLO('ultralytics/runs/detect/train_model/weights/best.pt')
 
 ###### Run inference on video
 model.predict('test_vid.mp4', save=True, imgsz=320, conf=0.2)
+
 
 
 #### To perform Detection and Recognition (YOLOv8 + easyOCR) run the below command: 
