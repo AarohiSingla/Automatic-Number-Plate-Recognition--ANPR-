@@ -1,0 +1,6 @@
+train: D:/yolov8_license_plate_recog/1_license_plate_recog/dataset/train/images
+val: D:/yolov8_license_plate_recog/1_license_plate_recog/dataset/valid/images
+test: D:/yolov8_license_plate_recog/1_license_plate_recog/dataset/test/images
+
+nc: 1
+names: ['licence']
