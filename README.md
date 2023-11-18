@@ -15,18 +15,18 @@ cd Automatic-Number-Plate-Recognition--ANPR--main
 
 from ultralytics import YOLO
 
-####### Load a model
+###### Load a model
 model = YOLO('yolov8n.pt')  # load a pretrained model (recommended for training)
 
-####### Train the model
+###### Train the model
 results = model.train(data='data.yaml', epochs=200, imgsz=640) 
 
 #### Test the yolov8 model:
 
-####### Load a pretrained YOLOv8n model
+###### Load a pretrained YOLOv8n model
 model = YOLO('ultralytics/runs/detect/train_model/weights/best.pt')
 
-####### Run inference on video
+###### Run inference on video
 model.predict('test_vid.mp4', save=True, imgsz=320, conf=0.2)
 
 
